@@ -1,0 +1,100 @@
+body{
+	min-height: 100vh;
+	position: relative;
+
+}
+
+
+*
+{
+
+	font-family: cursive;
+
+}
+
+h2{
+	text-align: center;
+	color: black;
+	font-style: normal;
+	margin-bottom: 50px;
+	margin-top: 25px;
+
+}
+.small-block1,.small-block2,.small-block3{
+	border-left:  2px solid black;
+	border-bottom: 2px solid black;
+	width:100px;
+	text-align: center;
+	float: right;
+	padding: 0px;
+
+}
+.small-block1{
+	background-color: lightpink;
+}
+.small-block2{
+	background-color: red;
+}
+.small-block3{
+	background-color: yellow;
+}
+
+.inside{
+	clear: right;
+}
+.chicken, .shushi, .beef {
+
+	border:  3.5px solid black;
+	width: 300px;
+	margin: 10px;
+	height:150px;
+	padding:0px;
+	float:left;
+	overflow: auto;
+
+
+}
+@media (min-width: 1143px){
+
+	.chicken, .beef, .shushi{
+		background-color: lightgrey;
+		float:left;
+		width:30%;
+	}
+
+
+
+}
+@media(max-width: 1142px ) {
+	.chicken, .shushi, .beef{
+		background-color: lightgrey;
+		float:left;
+	}
+	.chicken{
+		width:45%;
+	}
+	.beef{
+		width:45%;
+	}
+	.shushi{
+		width:94%;
+	}
+
+
+
+}
+@media(max-width: 572px ) {
+.chicken, .shushi, .beef{
+		background-color: lightgrey;
+		float:left;
+	}
+	.chicken{
+		width:90%;
+	}
+	.beef{
+		width:90%;
+	}
+	.shushi{
+		width:90%;
+	}
+}
